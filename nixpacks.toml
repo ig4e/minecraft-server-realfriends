@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ['zulu8']
+
+[start]
+cmd = 'java -Xmx1024M -Xms1024M -jar server.jar nogui --port 3000'
